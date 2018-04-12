@@ -1,0 +1,32 @@
+<h2>Listing Jumps</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Secondary</th>
+      <th>Name</th>
+      <th>Display name</th>
+      <th>Description</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for jump <- @jumps do %>
+    <tr>
+      <td><%= jump.secondary_id %></td>
+      <td><%= jump.name %></td>
+      <td><%= jump.display_name %></td>
+      <td><%= jump.description %></td>
+
+      <td class="text-right">
+        <span><%= link "Show", to: jump_path(@conn, :show, jump), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Edit", to: jump_path(@conn, :edit, jump), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Delete", to: jump_path(@conn, :delete, jump), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Jump", to: jump_path(@conn, :new) %></span>

@@ -1,0 +1,17 @@
+<div class="guides">
+
+  <%= render_partial "hero.html", title: "An intuitive mental health strategy." %>        
+
+  <div class="homepage__spacer"></div>  
+  
+  <div id="end-game" class="slide">
+    <%= render_partial "h2-link.html", 
+      link: "/guides/end-game#end-game", 
+      title: "End Game" 
+    %>
+
+    <p>When it comes to self-awareness there really is no 'end-game' so-to-speak.</p>
+    <p>What will eventually happen however is that </p>
+
+  </div>
+</div>

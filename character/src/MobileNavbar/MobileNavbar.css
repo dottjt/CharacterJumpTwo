@@ -1,0 +1,40 @@
+.MNav {
+  background: black;
+  color: white;
+}
+
+.MNav__hamburger__menu {
+  display: none;
+
+  position: absolute;
+  left: 0;
+  top: 50px;
+
+  width: 100%;
+}
+
+.MNav__hamburger__menu--open {
+  display: block;
+}
+
+.MNav__hamburger {
+  background: yellow;
+  height: 100%;
+  width: 50px;
+}  
+
+.MNav__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  background: white;
+  border: 1px solid black;
+
+  height: 50px;
+  width: 100%;
+}
+
+.MNav__item li {
+  margin-left: 1rem;
+}

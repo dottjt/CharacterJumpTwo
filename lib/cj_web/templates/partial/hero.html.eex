@@ -1,0 +1,16 @@
+<nav class="hero__header">
+  <!-- <a href="/registrations/new">sign up</a>
+  <a href="/sessions/new">login</a> -->
+</nav>
+
+<div class="hero">
+  <div class="hero__left">
+    <h1><%= @title %></h1>
+  </div>
+
+  <div class="hero__right">
+    <a class="btn btn-green" href="/registrations/new">sign up</a>
+    <a class="btn btn-blue" href="/sessions/new">login</a>
+    <a class="btn btn-orange" href="/guides">guides</a>          
+  </div>
+</div>  

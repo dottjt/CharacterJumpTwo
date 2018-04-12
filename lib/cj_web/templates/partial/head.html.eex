@@ -1,0 +1,12 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Character Jump">
+<meta name="author" content="Julius Reade">
+
+<title>Character Jump</title>
+<!-- <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>"> -->
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css"> -->
+<%= {:safe, css_link_tag() } %> 
+

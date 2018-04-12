@@ -1,0 +1,59 @@
+<div class="guides">
+
+  <%= render_partial "hero.html", title: "An intuitive mental health strategy." %>        
+
+  <div class="homepage__spacer"></div>
+
+  <div id="existing-approaches" class="slide">
+    <%= render_partial "h2-link.html", 
+        link: "/guides/existing-approaches#existing-approaches", 
+        title: "Existing Approaches" 
+      %>
+
+    <p>There are a wide range of mental health strategies out there.</p>
+    <p>It's important to understand is that there are no perfect mental health strategies, and that they all have their range of strengths and weaknesses.</p>
+    <!-- <p>This is why it may be useful to combine a number of different strategies, or even begin with more fundamental strategies so that you can have a strong foundation for more long-term alternatives.</p> -->
+    <p>Of course, this particular mental health strategy is designed so that you do not require any pre-existing knowledge.</p>
+    <p>Below are a few of the most common approaches in regards to their core weaknesses and strengths.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>  
+  
+  <div id="knowledge-based-approaches" class="slide">
+    <%= render_partial "h2-link.html", 
+      link: "/guides/existing-approaches#knowledge-based-approaches", 
+      title: "Knowledge Based Approaches" 
+    %>
+
+    <p>One popular approach is self-help via books and blog posts.</p>
+    <p>In fact, this written guide technically serves as one of those resources.</p>
+    <p>These knowledge-based approaches are excellent from an educational point of view, and is where a lot of people start out with their mental health.</p>
+    <p>They are however, generally ineffective in terms of making an impact on our mental health.</p>
+    <p>Part of the issue is the fickleness of knowledge. Personally speaking, I barely retain the knowledge I've read from books, including books I've read many times before.</p>
+    <p>Otherwise, overcoming a series of traumatic episodes would be as simple as reading a few books.</p>
+    <p>It almost never is.</p>
+    <p>The main issue is that knowledge itself is not enough to gain mastery. You can't become a great pianist or an amazing chef simply from reading books.</p>
+    <p>There needs to be an associated action as part of the process, that gets us actively involved with the material we're learning.</p>
+    <p>Otherwise this knowledge simply goes to waste.</p>
+    <p>Although, you may argue that books and blog posts often contain practices for you to do.</p> 
+    <p>Which brings us to our next approach.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>  
+
+  <div id="skill-based-approaches" class="slide">
+    <%= render_partial "h2-link.html", 
+      link: "/guides/existing-approaches#skill-based-approaches", 
+      title: "Skill Based Approaches" 
+    %>
+
+    <p>The alternative to these knowledge-based approaches are practice and skill-based approaches.</p>
+    <p>These include activities such as behaviorial therapy, mental health courses, perspective exercises and guided meditation.</p>
+    <p>These strategies aim to introduce you to a core set of skills to effectively address your mental health.</p> 
+    <p>Skills which you build up and improve over time, which the course guides you through.</p>
+    <p>The idea behind these strategies is to help you create stronger outcomes by combining both knowledge and proactivity so you can engrain what you've learnt via practice.</p>
+    <p>Certainly, active practice is critical when it comes to improving upon our mental health and it forms part of my own mental health strategy.</p>
+    <p>The only issue I've tend to find is that a lot of these courses aren't well structured, or they promote a number of anti-patterns that can result in a number of issues realised only later down-the-line.</p>
+  </div>
+  
+</div>

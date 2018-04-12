@@ -1,0 +1,8 @@
+<header>
+  <nav class="header__left" role="navigation">
+    <img className="header__logo" src="" alt=""/>
+    <a href="/">Homepage</a>
+    <a href="/community">Community</a>
+    <a href="/guides">Guides</a>
+  </nav>
+  </header>

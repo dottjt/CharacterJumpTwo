@@ -1,0 +1,94 @@
+<div class="guides">
+
+  <%= render_partial "hero.html", title: "An intuitive mental health strategy." %>
+
+  <div class="homepage__spacer"></div>
+
+  <div id="my-approach" class="slide">
+    <%= render_partial "h2-link.html",
+      link: "/guides/my-approach/#my-approach",
+      title: "My Approach"
+    %>
+
+    <p>As established previously I don't believe knowledge-based approaches are necessarily the most effective way to develop our mental health (books, blog posts etc.)</p>
+    <p>And I don't believe practice or skill-based approaches (self-help courses, behaviourial therapy etc.) are ideal from a structural or motivational point of view.</p>
+    <p>Which essentially brings us to the approach I've developed, which challenges a few key assumptions about how we view mental health strategies.</p>
+    <p>On the homepage I outlined a few key areas in which this mental health strategy helps you develop your self-awareness effectively.</p>
+
+    <!-- <p> the problem with existing mental health courses is that they don't address mental health specifically. They address self-awareness or enlightenment under the guide of mental health, and they dont work.</p> -->
+    
+    <%= render_partial "difference-list.html", assigns %>        
+
+    <p>I'll address each point below.</p>
+    <p>For an actual explanation of the mental health strategy please check out the <a class="link" href="/guides/understanding-characters">Understanding Characters</a> section.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="helps-you-develop-introspection" class="slide">
+    <%= render_partial "h2-link.html",
+      link: "/guides/my-approach/#helps-you-develop-introspection",
+      title: "Helps You Develop Introspection"
+    %>
+
+    <ul>
+      <li>Helps you focus on developing introspection</li>
+    </ul>
+        
+    <p>Introspection can be defined as:</p>
+    <p>"The examination or observation of one's own mental and emotional processes."</p>
+    <p>Even though it's never directly stated, developing the ability to introspect is ultimately what we're trying to achieve with these mental health strategies.</p>
+    <p>If you had the ability to introspect effectively, you essentially wouldn't have any problems.</p>
+    <p>Because it would never get to that point. Your brain would self-regulate itself and maintain the self-awareness not to develop delusion etc.</p>
+    <p>The problem with a lot of these courses is that they treat introspection as an indirect consequence of the skills teach, rather than introspection within itself.</p>
+    <p>I believe this is a backward approach.</p>
+    <p>Instead, my mental health strategy places introspection front-and-center and has you thinking about it and developing it from the start.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>  
+
+  <div id="allows-you-to-maintain-oversight" class="slide">
+    <%= render_partial "h2-link.html",
+      link: "/guides/my-approach/#allows-you-to-maintain-oversight",
+      title: "Allows You To Maintain Oversight"
+    %>
+
+    <ul>
+      <li>Allows you to maintain oversight over your self-awareness</li>
+    </ul>
+
+    <p>I believe most pre-existing systems make a very dirty assumption.</p>
+    <p>They assume that you will be unable to effectively address your mental health without the skills and practices they teach.</p>
+    <p>This is false.</p>
+    <p>Certainly, while I don't disagree with the usefulness of these skills in certain contexts, I disagree that they are absolutely critical, and as outlined in the <a class="link" href="/guides/existing-approaches">Existing Approaches</a> section can even set a person up for failure.</p>
+    <p>The problem with this understanding of necessity is that it creates this paradigm of dependency, with the impression that these skills are the be-all-or-end-all to their mental health.</p>
+    <p>Then when people end up backtracking, they assume that it's because they're not following the framework when it could be anything at all.</p>
+    <p>Truth is that you already have all the skills and means to improve your mental health.</p>
+    <p>If you already have the ability to understand a language, as well as the ability to identify basic thoughts, then you absolutely already have everything you need to understand yourself.</p>
+
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="does-not-require-pre-existing-knowledge" class="slide">
+      <%= render_partial "h2-link.html",
+        link: "/guides/does-not-require-pre-existing-knowledge/#",
+        title: "Does Not Require Pre-Existing Knowledge"
+      %>
+
+    <ul>
+      <li>Does not require pre-existing knowledge to be effective</li>
+    </ul>
+
+    <p>Granularity is the antithesis of self-awareness.</p>
+    <p>When focus becomes granular, as is usually the case when practicing specific exercises, it becomes almost impossible to maintain oversight.</p>
+    <p>It's the reason why it's so hard to both design and build a product at the same time. They both are quite granular in the type of thinking involved.</p>
+    <p>I believe maintaining oversight should be priority, and it comes back to this idea of introspection.</p>
+    <p>You can only introspect effectively if you can maintain a mental model of everything.</p>
+    <p>The moment you start learning specific skills and practices, this oversight goes out the window and it's treated as a necessary evil.</p>
+    <p>I simply think it's counter-intuitive, which is why this strategy allows you to always maintain oversight over what's going on.</p>
+    <p>As it's something you're rely on in the real world.</p>
+  </div>
+
+
+</div>

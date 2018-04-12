@@ -1,0 +1,15 @@
+<div class="guides">
+
+  <%= render_partial "hero.html", title: "An intuitive mental health strategy." %>        
+
+  <div class="homepage__spacer"></div>
+
+  <div id="example-characters" class="slide">  
+    <%= render_partial "h2-link.html", 
+      link: "/guides/example-characters#example-characters", 
+      title: "Example Characters" 
+    %>
+    <p>Theoretically there are an infinite number of characters that we play.</p>
+    <p>Realistically there are only a few key characters that we play, which define who we are.</p>
+  </div>
+</div>

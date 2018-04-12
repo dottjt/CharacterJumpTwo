@@ -1,0 +1,15 @@
+<h1>Character Community</h1>
+
+<h2>Search from thousands of different characters.</h2>
+
+<div class="community__search">
+
+</div>
+
+<div class="community__list">
+    <!-- <%= Enum.map(@posts, fn(post) -> %>
+      <div class="blog__inner">  
+    
+      </div>
+    <% end) %> -->
+</div>

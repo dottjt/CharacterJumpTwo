@@ -1,0 +1,158 @@
+/*  Slide 1 */
+
+.RS__slide {
+  display: flex;
+  flex-direction: column;
+
+  padding: 1rem;  
+  margin-bottom: 1.5rem;
+}
+
+.RS__slide__title {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.RS__narrative, .RS__character {
+  display: flex;
+  border: 1px solid black;
+  min-height: 3rem;
+
+  margin-bottom: 4px;
+}
+
+.RS__narrative__text, .RS__character__text {
+  display: flex;
+  align-items: center;
+
+  padding-left: 1rem;  
+  font-size: 1rem;
+  width: 100%;
+}
+
+.RS__selected, .RS__selection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border: 1px solid black;
+
+  padding-left: 1rem;
+  min-height: 3rem;
+
+  width: 100%;
+
+  margin-bottom: 0.5rem;
+}
+
+.RS__symbol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 3rem;
+
+  border-left: 1px solid black;
+}
+
+.RS__new__narrative {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 1rem;
+}
+
+.RS__selected__narratives, .RS__choose__narratives {
+  min-height: 9rem;
+}
+
+
+
+/* Slide 2 */
+
+.RS__selected__narrative__list {}
+
+.RS__selected__narrative {
+
+}
+
+.RS__character__list {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+
+
+/* Slide 3 */
+
+.RS__character__box {
+  height: 18rem;
+
+  padding: 1rem;
+  border: 1px solid black;
+
+  margin-bottom: 3.5rem;
+}
+
+.RS__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 3rem;
+  width: 3rem;
+  border: 1px solid black;
+}
+
+.RS__character__relations {
+  
+}
+
+.RS__character__relation {
+  
+}
+
+
+
+/* Slide 4 */
+
+.RS__journal {
+  
+}
+
+
+
+
+
+
+
+
+/* PROGRESSION BAR */
+
+.RS__progression__bar {
+  display: flex;
+}
+
+.RS__progression__item__selected {
+  color: red;
+}
+
+.RS__progression__item {
+
+}
+
+
+
+/* BOTTOM BAR */
+
+.RS__bottom {
+  border: 1px solid black; 
+}
+
+.RS__bottom__link {
+
+}
+
+.RS__bottom__link__blank {
+  color: grey;
+}

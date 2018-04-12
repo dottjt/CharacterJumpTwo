@@ -1,0 +1,59 @@
+<div class="guides">
+
+  <%= render_partial "hero.html", title: "An intuitive mental health strategy." %>        
+
+  <div class="homepage__spacer"></div>
+
+  <div id="limitations" class="slide">
+    <%= render_partial "h2-link.html", 
+      link: "/guides/strategy-limitations#limitations", 
+      title: "Limitations" 
+    %>
+
+    <p>No strategy is perfect.</p>
+    <p>I suppose an important point to note is that there are no silver bullets when it comes to mental health.</p>
+    <p>What I mean by this is that there is an inherent communication barrier when it comes to understanding other people's points of view.</p>
+    <p>After all, mental health strategies are nothing more than different ways of thinking about your problems.</p>
+    <p>The main limitation I face personally is the use of words as a medium to communicate information.</p>
+    <p>Words are inherently subjective and so there's a strong level of interpretation that must take place.</p>
+    <p>So below are a few more words to hopefully help you maintain perspective.</p>
+
+    <!-- <p>Of course, please keep in mind that there are always limitations to any system, and this is something I address in the <a class="link" href="">strategy limitations</a> section.</p>
+    <p>The reason for this is that usually these kinds of systems do one thing, and one thing well.</p>
+    <p>This system is no different and it may make sense to try different systems depending on where you're at with your mental health.</p>
+    <p>Ideally, you should learn a few of these systems so you can learn to think holistically for yourself, and even develop your own strategies.</p> -->
+
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="dont-get-too-caught-up" class="slide">
+    <%= render_partial "h2-link.html", 
+      link: "/guides/strategy-limitations#dont-get-too-caught-up", 
+      title: "Don't Get Too Caught Up" 
+    %>
+
+    <p>The general idea behind mental health strategies is to help you organise and frame your problems in a way that's manageable.</p>
+    <p>The reason this is problematic is because there is technically nothing wrong with you.</p>
+    <p>However when you frame a problem in certain terms, you can end up creating a paradigm where it makes sense to address and create new problems, than it is to actually live without them.</p>
+    <p>I suppose there's a fine line in terms of providing help. It needs to be accessible so that you're still working from the point of view of the patient and their perception of themselves.</p>
+    <p>However, </p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="what-it-doesnt-do" class="slide">
+    <%= render_partial "h2-link.html", 
+      link: "/guides/strategy-limitations#what-it-doesnt-do", 
+      title: "What It Doesn't Do" 
+    %>
+
+    <p>What functioning mental health essentially buys you is additional control over your time.</p>
+    <p>What this strategy cannot help you with is tell you what you should do with your time.</p>
+    <p>It is not designed to help you structure your goals and ambitions.</p>
+    <p>It's merely designed to help you become aware of your weakness.</p>
+    <p>How you choose to proceed is entirely up to you.</p>
+    <p>Don't expect self-awareness to radically give you the answers to everything in life.</p>
+    <p>It simply provides you with a clear mind to make that decision.</p>
+  </div>
+</div>

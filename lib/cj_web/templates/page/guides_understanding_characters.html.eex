@@ -1,0 +1,151 @@
+<div class="guides">
+
+  <%= render_partial "hero.html", title: "An intuitive mental health strategy." %>        
+
+  <div class="homepage__spacer"></div>
+
+  <div id="understanding-characters" class="slide">  
+    <%= render_partial "h2-link.html", 
+        link: "/guides/understanding-characters#understanding-characters", 
+        title: "Understanding Characters" 
+        %>
+
+    <p>Characters are the various personalities we play.</p>
+    <p>For example, our personalities differ radically depending on whether we're sick at home with the flu, compared to when we're half-way through an intense workout at the gym and feeling unstoppable.</p>
+    <p>Of course, you can still be having those experiences and choose not play any characters.</p>
+    <p>I'm merely pointing out that our environment and cirumcumstances can play a part in influencing which personalities we play.</p>
+    <p>We play victim characters. We play overly-confident characters. We play aggressive characters. We play neglectful characters. We play charming characters. We play nice characters. We play depressed characters.</p>
+    <p>In some cases, a simple memory or thought can shift us into a certain type of character we play, either from the past or present.</p>    
+    <p>We play all sorts of characters for all sorts of reasons, usually without being aware of it.</p>  
+    <p>Essentially, the more you can learn about these characters, the more you can learn about yourself, and the greater your ability to change will be.</p>
+    <p>For now however, it's best to understand that these characters are merely different aspects of our personality, which we have developed since childhood.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="characters-are-not-real" class="slide">
+    <%= render_partial "h2-link.html", 
+        link: "/guides/understanding-characters#characters-are-not-real", 
+        title: "Characters Are Not Real" 
+    %>
+
+    <p>The problem with these characters is that they're not real.</p>
+    <p>They're merely masks we wear that we have developed over the years, often as a reaction to something that's taken place.</p>
+    <p>Masks we develop, and likewise can undevelop and eventually throw away.</p>
+    <p>In addition, these characters can be developed for absolutely any reason, including no reason at all.</p>
+    <p>The reason they are not real is because they can be dissolved, and when you dissolve all your characters, you expose a more genuine self.</p>
+    <p>Which we can lose track of indefinitely.</p>
+  </div>
+
+
+  <div class="homepage__spacer"></div>
+
+  <div id="why-characters-are-harmful" class="slide">
+    <%= render_partial "h2-link.html", 
+        link: "/guides/understanding-characters#why-characters-are-harmful", 
+        title: "Why Characters Are Harmful" 
+    %>
+    <p>The fact that characters are not real is not the reason why they're harmful.</p>
+    <p>In fact, you could argue that characters aren't necessarily the issue.</p>
+    <p>The issue is when we take these characters so personally that we actually believe we are them.</p>
+    <p>This usually happens in reaction to an event so strong, we begin to self-identify with these characters in an attempt to better understand ourselves.</p>
+    <p>In other instances, we can simply play characters for so long that it becomes all we know.</p>
+    <p>At this point they become habitual, usually in response to something, and we learn to play these characters without thinking.</p>
+    <p>Usually it is an unconscious process, and this is when our characters truly become harmful.</p>
+    <p>In fact we become so convinced that we are these characters, that nothing will stop us from playing them.</p>
+    <p>Because when we lose ourselves to these characters, we lose our ability to think freely and we lose our ability to introspect effectively.</p>
+    <p>It becomes somewhat of a downward spiral.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="what-does-it-mean-to-be-genuine" class="slide">
+    <%= render_partial "h2-link.html", 
+        link: "/guides/understanding-characters#what-does-it-mean-to-be-genuine", 
+        title: "What Does It Mean To Be Genuine?" 
+    %>
+
+    <p>Some people argue that there is no such thing as our genuine selves, and that this idea of the 'genuine self' is merely another character.</p>
+    <p>Of course, this usually comes from the perspective of someone deeply in character who cannot understand what it's like not to be in character.</p>
+    <p>So the best I can do is describe what it's like to live without character.</p>
+    <p>A lot of explanations get you to try and think back to your childhood, and what it was like to live without expectation, however I don't think that's necessarily the best explanation.</p>
+    <p>Instead, imagine not caring about anything.</p>
+    <p>Imagine that you no longer care about the outcome of anything.</p>
+    <p>You could die tomorrow. You could lose your job. You just don't care.</p>
+    <p>Except that instead of it making you feel depressed, confused or anxious, it actually makes you feel happy and empowered.</p>
+    <p>In fact, you feel free.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="why-being-genuine-isnt-scary" class="slide">
+    <%= render_partial "h2-link.html", 
+        link: "/guides/understanding-characters#why-being-genuine-isnt-scary", 
+        title: "Why Being Genuine Isn't Scary" 
+    %>
+
+    <p>And yet inspite of this mental shift, nothing in your life has actually changed. You still have your job. You're still alive. You're still you.</p>
+    <p>Yet no longer do you feel attached to these things, which ironically makes you better to do those things.</p>
+    <p>When you remove the attachment you no longer feel clouded by your fear or judgement of them.</p>
+    <p>That's what your genuine self feels like.</p>
+    <p>Now of course we still need a job, as well as the need to be alive, however this kind of parallel can be applied to the characters in our lives.</p>
+    <p>When we become attached to the characters we play, we play into that same dynamic of fear and bias which clouds our ability to introspect effectively.</p>
+    <p>Put simply, our genuine self is like a blank slate.</p>
+    <p>It's not committed to anything.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="why-it-helps-to-be-genuine" class="slide">
+    <%= render_partial "h2-link.html", 
+        link: "/guides/understanding-characters#why-it-helps-to-be-genuine", 
+        title: "Why It Helps To Be Genuine" 
+    %>
+
+    <p>Of course, there's nothing necessarily wrong with playing characters.</p>
+    <p>You are more than welcome to play as many characters as you like.</p>
+    <p>However exposing our genuine selves and not playing characters can provide us with a lot of real benefits, in particular to our mental and physical health.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="retaining-energy" class="slide">
+    <%= render_partial "h2-link.html", 
+        link: "/guides/understanding-characters#retaining-energy", 
+        title: "Retaining Energy" 
+    %>
+
+    <p>The biggest change has to do with the amount of resources that get freed up in not playing characters.</p>
+    <p>You see, these characters don't come cheap.</p>
+    <p>They require an immense amount of energy to develop and maintain, usually in conjunction with the amount of extra decisions they create in our mind.</p>
+    <p>If you're an excessive worrier for example, or perhaps even someone who is judgemental and feels the need to comment on everything, maintaining those characters can really sap you.</p>
+    <p>We no longer need to impress anyone, we can stop trying to defend our opinions all the time.</p>
+    <p>This alone is worth it for anyone who cares about productivity.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="true-confidence" class="slide">
+    <%= render_partial "h2-link.html", 
+        link: "/guides/understanding-characters#true-confidence", 
+        title: "Developing True Confidence" 
+    %>
+
+    <p>The other thing it opens up is a renewed sense of confidence.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="discovering-our-genuine-selves" class="slide">
+    <%= render_partial "h2-link.html", 
+        link: "/guides/understanding-characters#discovering-our-genuine-selves", 
+        title: "Discovering Our Genuine Selves" 
+    %>
+
+    <p>The only way to discover who we really are is to dissolve all the characters you play.</p>
+    <p>The less time you spend playing these characters, the less influence they will have on you and the more control you can regain of yourself.</p>
+    <p>Certainly, it's not easy.</p>
+    <p>After all, we've been playing these characters for quite a while, usually since childhood - so we've become quite attached to them.</p>    
+  </div>
+  
+</div>

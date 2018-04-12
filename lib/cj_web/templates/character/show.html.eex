@@ -1,0 +1,33 @@
+<h2>Show Character</h2>
+
+<ul>
+
+  <li>
+    <strong>Secondary:</strong>
+    <%= @character.secondary_id %>
+  </li>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @character.name %>
+  </li>
+
+  <li>
+    <strong>Display name:</strong>
+    <%= @character.display_name %>
+  </li>
+
+  <li>
+    <strong>Featured image:</strong>
+    <%= @character.featured_image %>
+  </li>
+
+  <li>
+    <strong>Icon:</strong>
+    <%= @character.icon %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: character_path(@conn, :edit, @character) %></span>
+<span><%= link "Back", to: character_path(@conn, :index) %></span>

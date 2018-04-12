@@ -1,0 +1,17 @@
+<div class="guides">
+
+  <%= render_partial "hero.html", title: "An intuitive mental health strategy." %>        
+
+  <div class="homepage__spacer"></div>
+
+  <div id="external-resources" class="slide">  
+    <%= render_partial "h2-link.html", 
+      link: "/guides/external-resources/#external-resources", 
+      title: "External Resources" 
+    %>
+
+    <p>While this entire guide may argue that all other solutions are flawed, that isn't to say that I find them pointless.</p>
+    <p>There are quite a few books and mental health courses I would highly recommend.</p>
+    <p></p>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+<h2>Show Trait</h2>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @trait.name %>
+  </li>
+
+  <li>
+    <strong>Display name:</strong>
+    <%= @trait.display_name %>
+  </li>
+
+  <li>
+    <strong>Excerpt:</strong>
+    <%= @trait.excerpt %>
+  </li>
+
+  <li>
+    <strong>Featured image:</strong>
+    <%= @trait.featured_image %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: trait_path(@conn, :edit, @trait) %></span>
+<span><%= link "Back", to: trait_path(@conn, :index) %></span>

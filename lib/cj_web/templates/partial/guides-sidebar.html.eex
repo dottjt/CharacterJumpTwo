@@ -1,0 +1,126 @@
+<div class="guides__sidebar">
+  <div class="guides__sidebar__top">
+    <a class="btn btn-green" href="/registrations/new">
+      Interested in signing up?
+    </a>
+  </div>
+
+  <div class="sidebar__menu">
+
+    <h4 class="sidebar__title">Introduction</h4>
+    
+    <div class="sidebar__section">
+      <div class="sidebar__submenu">
+        <a class="sidebar__submenu__item" href="/guides"/>Introduction</a>
+        <a class="sidebar__submenu__item" href="/guides#purpose"/>Purpose</a>
+        <a class="sidebar__submenu__item" href="/guides#approach"/>Approach</a>
+      </div>
+    </div>
+
+    <h4 class="sidebar__title">Existing Approaches</h4>
+    
+    <div class="sidebar__section">
+      <div class="sidebar__submenu">
+        <a class="sidebar__submenu__item" href="/guides/existing-approaches"/>Existing Approaches</a>
+        <a class="sidebar__submenu__item" href="/guides/existing-approaches#knowledge-based-approaches"/>Knowledge Based Approaches</a>
+        <a class="sidebar__submenu__item" href="/guides/existing-approaches#skill-based-approaches"/>Skill Based Approaches</a>
+      </div>
+    </div>
+
+    <h4 class="sidebar__title">Limitations Of Existing Approaches</h4>
+
+    <div class="sidebar__section">
+      <div class="sidebar__submenu">      
+        <a class="sidebar__submenu__item" href="/guides/existing-approaches-limitations#high-barrier-of-entry"/>High Barrier Of Entry</a>
+        <a class="sidebar__submenu__item" href="/guides/existing-approaches-limitations#difficulty-retaining-skills"/>Difficulty Retaining Skills</a>
+        <a class="sidebar__submenu__item" href="/guides/existing-approaches-limitations#granular-in-scope"/>Granular In Scope</a>    
+      </div>
+    </div>
+
+
+    <h4 class="sidebar__title">My Approach</h4>
+    
+    <div class="sidebar__section">
+      <div class="sidebar__submenu">
+        <a class="sidebar__submenu__item" href="/guides/my-approach"/>My Approach</a>        
+        <a class="sidebar__submenu__item" href="/guides/my-approach#helps-you-develop-introspection"/>Helps You Develop Introspection</a>        
+        <a class="sidebar__submenu__item" href="/guides/my-approach#allows-you-to-maintain-oversight"/>Allows You To Maintain Oversight</a>        
+        <a class="sidebar__submenu__item" href="/guides/my-approach#does-not-require-pre-existing-knowledge"/>Does Not Require Pre-Existing Knowledge</a>        
+      </div>
+    </div>
+
+    <h4 class="sidebar__title">Understanding Characters</h4>
+
+    <div class="sidebar__section">
+      <div class="sidebar__submenu">
+        <a class="sidebar__submenu__item" href="/guides/understanding-characters">Understanding Characters</a>
+        <a class="sidebar__submenu__item" href="/guides/understanding-characters#characters-are-not-real">Characters Are Not Real</a>
+        <a class="sidebar__submenu__item" href="/guides/understanding-characters#why-characters-are-harmful">Why Characters Are Harmful</a>
+      </div>
+    </div>
+
+    <h4 class="sidebar__title">What Does It Mean To Be Genuine?</h4>
+
+    <div class="sidebar__section">
+      <div class="sidebar__submenu">
+        <a class="sidebar__submenu__item" href="/guides/genuine-meaning#what-does-it-mean-to-be-genuine">What Does It Mean To Be Genuine?</a>
+        <a class="sidebar__submenu__item" href="/guides/genuine-meaning#why-being-genuine-isnt-scary">Remaining The Same</a>
+        <a class="sidebar__submenu__item" href="/guides/genuine-meaning#discovering-our-genuine-selves">Discovering Our Genuine Selves</a>
+      </div>
+    </div>
+
+    <h4 class="sidebar__title">Benefits Of Our Genuine Self</h4>
+    
+    <div class="sidebar__section">
+      <div class="sidebar__menu">
+        <a class="sidebar__submenu__item" href="/guides/genuine-benefits#why-it-helps-to-be-genuine">Why It Helps To Be Genuine</a>        
+        <a class="sidebar__submenu__item" href="/guides/genuine-benefits#retaining-energy">Retaining Energy</a>
+        <a class="sidebar__submenu__item" href="/guides/genuine-benefits#developing-true-confidence">Developing True Confidence</a>
+      </div>
+    </div>
+
+    <h4 class="sidebar__title">Identifying Characters</h4>
+    
+    <div class="sidebar__section">
+      <div class="sidebar__submenu">
+        <a class="sidebar__item" href="/guides/identifying-characters">Identifying Characters</a>    
+        <a class="sidebar__item" href="/guides/identifying-characters#the-easiest-approach">The Easiest Approach</a>    
+        <a class="sidebar__item" href="/guides/identifying-narratives#identifying-narratives">Identifying Narratives</a>    
+        <a class="sidebar__item" href="/guides/identifying-narratives#identifying-characters-from-narratives">Identifying Characters From Narratives</a>    
+      </div>
+    </div>
+
+    <h4 class="sidebar__title">Eliminating Characters</h4>
+    
+    <div class="sidebar__section">
+      <div class="sidebar__submenu">
+        <a class="sidebar__item" href="/guides/eliminating-characters">Eliminating Characters</a>
+      </div>
+    </div>
+
+    <h4 class="sidebar__title">Example Characters</h4>
+    
+    <div class="sidebar__section">
+      <a class="sidebar__item" href="/guides/example-characters">Example Characters</a>
+    </div>
+  
+    <h4 class="sidebar__title">STRATEGY LIMITATIONS</h4>
+    
+    <div class="sidebar__section">
+      <a class="sidebar__item" href="/guides/strategy-limitations">Strategy Limitations</a>    
+      <a class="sidebar__item" href="/guides/strategy-limitations#dont-get-caught-up">Don't Get Caught Up</a>    
+      <a class="sidebar__item" href="/guides/strategy-limitations#what-it-doesnt-do">What It Doesn't Do</a>    
+    </div>
+
+    <h4 class="sidebar__title">END GAME</h4>
+    
+    <div class="sidebar__section">
+      <a class="sidebar__item" href="/guides/end-game">End Game</a>
+    </div>
+
+    <div class="sidebar__section">
+      <a class="sidebar__item" href="/guides/external-resources">External Resources</a>
+    </div>
+
+  </div>
+</div>

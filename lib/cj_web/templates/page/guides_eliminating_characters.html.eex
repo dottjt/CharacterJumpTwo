@@ -1,0 +1,68 @@
+<div class="guides">
+    
+  <%= render_partial "hero.html", title: "An intuitive mental health strategy." %>        
+
+  <div class="homepage__spacer"></div>
+
+  <div id="eliminating-characters" class="slide">
+    <%= render_partial "h2-link.html",
+      link: "/eliminating-characters/#eliminating-characters",
+      title: "Eliminating Characters"
+    %>
+
+    <p>For starters, it's actually impossible to eliminate these characters in the sense of banishing them from our mind.</p>
+    <p>It's like trying to dissolve a thought. It's impossible to dissolve a thought, because a thought isn't a kind of box we can throw away.</p>
+    <p>The truth is that these characters may appear at any time, for any reason.</p>
+    <p>All you can do is be aware of which characters you play, and prevent them from becoming </p>
+    <p>And through habit, repetition and awareness and you can more-or-less prevent yourself from playing these characters.</p>
+
+    <p>Self-awareness is a very effective approach at dissolving these characters.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="understanding-the-value-of-meditation" class="slide">
+    <%= render_partial "h2-link.html",
+      link: "/eliminating-characters/#understanding-the-value-of-meditation",
+      title: "Understanding The Value Of Meditation"
+    %>
+    <p>There's a reason why meditation is so valuable.</p>
+    <p>It's designed to take us out of character, and the more we practice this the more comfortable we can feel without them.</p>
+    <p>Certainly, it's part of the reason why meditation can be so difficult, because it's asking us to essentially let go of everything we care about.</p>
+    <p>And I would argue that most of the difficulty people face with their mental health comes down to a misunderstanding of what meditation is.</p>
+    <p>When you're learning new skills and practices as part of mental health courses, what you're essentially doing is learning different ways to meditate and reflect.</p>
+    <p>I suppose the issue I have is that I don't believe a lot of don't serve the purpose of mental health very well.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="asking-the-right-questions" class="slide">
+    <%= render_partial "h2-link.html",
+      link: "/eliminating-characters/#asking-the-right-questions",
+      title: "Avoiding Characters"
+    %>
+
+    <p>By asking the right questions (and using the application, to a lesser extent) you can essentially maintain your self-awareness with minimal effort.</p>
+    <p>Where the application becomes useful is if you're starting out.</p>
+    <p>The reason being that when we start out, it can be unfamiliar.</p>
+  
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="avoiding-characters" class="slide">
+    <%= render_partial "h2-link.html",
+      link: "/eliminating-characters/#avoiding-characters",
+      title: "Avoiding Characters"
+    %>
+
+
+
+    <p>There are a few core principles to take note of:</p>
+    <ul>
+      <li>It's impossible not to take these characters personally, so stay away</li>
+      <li>The less time we spend playing these characters, the less influence they will have</li>
+      <li>Don't try and replace characters with less sinister ones</li>
+    </ul>
+  </div>
+</div>

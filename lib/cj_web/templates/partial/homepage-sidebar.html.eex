@@ -1,0 +1,9 @@
+<div class="homepage__sidebar">
+  <div class="homepage__logo">
+    <img src="" alt="">
+    <h1>Character Jump</h1>
+  </div>
+
+  <%= render CjWeb.Coherence.RegistrationView, "homepage_sign_up.html", changeset: @changeset, conn: @conn %>
+
+</div>

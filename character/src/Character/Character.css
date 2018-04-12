@@ -1,0 +1,173 @@
+/* MAIN INDIVIDUAL CHARACTER */
+
+.CI__top {
+  border: 1px solid black; 
+
+  margin-bottom: 4rem;
+  padding: 1rem;
+}
+
+.CI__traits, 
+.CI__narratives, 
+.CI__description,
+.CI__journal {
+  margin-bottom: 1.5rem;
+}
+
+.CI__traits__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CI__top__buttons {
+  display: flex;
+}
+
+.CI__top__remove {
+  cursor: pointer;
+}
+
+.CI__top__edit {
+}
+
+.CI__traits__list {
+  display: flex;
+}
+
+.CI__trait__item, 
+.CI__narrative__item {
+  display: flex; 
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.CI__traits__list__empty,
+.CI__narratives__list__empty {
+
+}
+
+.CI__narratives__list {
+  display: flex; 
+  flex-direction: column;
+}
+
+.CI__journal__item {
+  margin-bottom: 1.5rem;
+}
+
+.CI__journal__item__buttons {
+  display: flex;
+}
+
+.CI__new__journal {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.CI__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: rgb(128, 128, 128, 0.8);
+}
+
+.CI__popup {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  height: 30rem;
+  width: 20rem;
+}
+
+
+
+/* MAIN CHARACTER LIST */
+
+.CL__traits {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.CL__trait {
+  display: inline-block;
+  padding-right: 1rem;
+  font-size: 0.8rem;
+}
+
+
+
+/* NEW CHARACTER */
+
+
+.CN__fields {
+  
+}
+
+.CN__field {
+  margin-bottom: 1rem;
+}
+
+
+.CN__save__container {
+  margin-top: 1.5rem;
+}
+
+
+
+
+/* NewCharacterTraitPicker */
+
+.CNTP {}
+
+.CNTP__selected__traits {
+  min-height: 4rem;  
+}
+
+.CNTP__selected__trait {
+  display: flex;
+}
+
+.CNTP__filters {}
+
+.CNTP__search {
+  margin-bottom: 1rem;
+}
+
+.CNTP__search__input {}
+
+.CNTP__categories {
+  display: flex;
+
+  margin-bottom: 1rem;
+}
+
+.CNTP__category {
+  border: 1px solid black; 
+  padding: 1rem;
+
+  cursor: pointer;
+}
+
+.CNTP__category__selected {
+  background: black;
+  color: white;
+}
+
+.CNTP__traits {
+  display: flex;
+  flex-wrap: wrap;
+
+  height: 16rem;
+  overflow-y: scroll;
+
+  border: 1px solid black;
+}
+
+.CNTP__trait {
+  padding: 5px;
+}

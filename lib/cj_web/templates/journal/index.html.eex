@@ -1,0 +1,26 @@
+<h2>Listing Journals</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Text</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for journal <- @journals do %>
+    <tr>
+      <td><%= journal.text %></td>
+
+      <td class="text-right">
+        <span><%= link "Show", to: journal_path(@conn, :show, journal), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Edit", to: journal_path(@conn, :edit, journal), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Delete", to: journal_path(@conn, :delete, journal), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Journal", to: journal_path(@conn, :new) %></span>

@@ -1,0 +1,76 @@
+.Time__days {
+  
+}
+
+.Time__day {
+  
+}
+
+.Time__individual__main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Time__characters, .Time__narratives {
+  width: 49%;
+}
+
+.Time__character {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 1rem;
+
+  height: 3rem; 
+
+  border: 1px solid black;
+}
+
+.Time__character__display_name {
+  
+}
+
+.Time__narrative {
+
+}
+
+
+/* Timeline Individual */
+
+.TI__characters {
+
+}
+
+.TI__character {
+
+}
+
+.TI__character__display_name {
+  
+}
+
+
+
+
+
+.TI__narratives {
+
+}
+
+.TI__narrative {
+
+}
+
+.TI__narrative-display_name {
+
+}
+
+.TI__journals {
+
+}
+
+.TI__journal {
+
+}
+
+

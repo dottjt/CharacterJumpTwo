@@ -1,0 +1,13 @@
+<h2>Show Journal</h2>
+
+<ul>
+
+  <li>
+    <strong>Text:</strong>
+    <%= @journal.text %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: journal_path(@conn, :edit, @journal) %></span>
+<span><%= link "Back", to: journal_path(@conn, :index) %></span>

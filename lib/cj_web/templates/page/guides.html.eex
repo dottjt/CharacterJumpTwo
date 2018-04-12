@@ -1,0 +1,51 @@
+<div class="guides">
+  
+  <%= render_partial "hero.html", title: "An intuitive mental health strategy." %>        
+
+  <div class="homepage__spacer"></div>
+
+  <div id="introduction" class="slide">
+    <%= render_partial "h2-link.html",
+      link: "/guides/my-approach#introduction",
+      title: "Introduction"
+    %>
+
+    <p>My name is Julius Reade.</p>
+    <p>I'm the creator of this platform and I thank you for taking the time to review my system.</p>
+    <p>Allow me to begin by saying that I believe the ideas surrounding mental health are already excellent.</p>
+    <p>Essentially what this system addresses is the organisation of these ideas, so as to avoid the many pitfalls of pre-existing systems.</p>
+    <p>Pitfalls which have been a reflection of my own personal experience with these systems.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="purpose" class="slide">
+    <%= render_partial "h2-link.html",
+      link: "/guides/my-approach#purpose",
+      title: "Purpose"
+    %>
+    <p>The aim of this strategy is to provide you with an effective process for you to maintain awareness over your mental health.</p>
+    <p>The reason is to help you become an effective human being.</p>
+    <p>A highly confident and capable human being with the ability to seamlessly deal with the pressures and outcomes of the modern 21st century.</p>
+    <p>In other words, this mental health strategy gives you a great deal of control over how you choose to live your life.</p>
+    <p>Control to simply be yourself without fear or worry.</p>
+  </div>
+  
+  <div class="homepage__spacer"></div>
+  
+  <div id="approach" class="slide">
+    <%= render_partial "h2-link.html",
+      link: "/guides/my-approach#approach",
+      title: "Approach"
+    %>
+
+    <p>Self-awareness will form the core of this mental health strategy, for reasons outlined within the various chapters.</p>
+    <p>On a more fundamental level this mental health strategy serves as a relatable framework for you to better understand your problems.</p>
+    <p>Of course, it begs to say that mental health strategies aren't silver bullets.</p>    
+    <p>Mental health strategies are merely designed to get you to think about your problems in a certain way, so you can be better able to help yourself.</p>
+    <p>You may embrace it or reject it.</p>
+    <p>That is entirely up to you and only you can help yourself. Unless if you're willing to seek professional help (which I encourage if you have the capacity).</p>
+    <p>If you would like to jump straight into the deep end, please check out the <a class="link" href="/guides/understanding-characters">Understanding Characters</a> section.</p>
+  </div>
+
+</div>

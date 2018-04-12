@@ -1,0 +1,28 @@
+<h2>Show Additional</h2>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @additional.name %>
+  </li>
+
+  <li>
+    <strong>Display name:</strong>
+    <%= @additional.display_name %>
+  </li>
+
+  <li>
+    <strong>Text:</strong>
+    <%= @additional.text %>
+  </li>
+
+  <li>
+    <strong>Type:</strong>
+    <%= @additional.type %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: additional_path(@conn, :edit, @additional) %></span>
+<span><%= link "Back", to: additional_path(@conn, :index) %></span>

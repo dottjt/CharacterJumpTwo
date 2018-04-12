@@ -1,0 +1,45 @@
+<div class="guides">
+
+  <%= render_partial "hero.html", title: "An intuitive mental health strategy." %>        
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="why-it-helps-to-be-genuine" class="slide">
+    <%= render_partial "h2-link.html", 
+        link: "/guides/understanding-characters#why-it-helps-to-be-genuine", 
+        title: "Why It Helps To Be Genuine" 
+    %>
+
+    <p>Of course, there's nothing necessarily wrong with playing characters.</p>
+    <p>You are more than welcome to play as many characters as you like.</p>
+    <p>However exposing our genuine selves and not playing characters can provide us with a lot of real benefits, in particular to our mental and physical health.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="retaining-energy" class="slide">
+    <%= render_partial "h2-link.html", 
+        link: "/guides/understanding-characters#retaining-energy", 
+        title: "Retaining Energy" 
+    %>
+
+    <p>The biggest change has to do with the amount of resources that get freed up in not playing characters.</p>
+    <p>You see, these characters don't come cheap.</p>
+    <p>They require an immense amount of energy to develop and maintain, usually in conjunction with the amount of extra decisions they create in our mind.</p>
+    <p>If you're an excessive worrier for example, or perhaps even someone who is judgemental and feels the need to comment on everything, maintaining those characters can really sap you.</p>
+    <p>We no longer need to impress anyone, we can stop trying to defend our opinions all the time.</p>
+    <p>This alone is worth it for anyone who cares about productivity.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="true-confidence" class="slide">
+    <%= render_partial "h2-link.html", 
+        link: "/guides/understanding-characters#true-confidence", 
+        title: "Developing True Confidence" 
+    %>
+
+    <p>The other thing it opens up is a renewed sense of confidence.</p>
+  </div>
+
+</div>

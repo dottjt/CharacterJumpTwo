@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%= render_partial "head.html", assigns %>        
+  </head>
+
+  <body>
+
+    <%#= render_partial "header.html", assigns %>        
+    
+    <main role="main">      
+      <%= render @view_module, @view_template, assigns %>
+    </main>
+
+    <%= render_partial "footer.html", assigns %>        
+    
+
+    <!-- <script src="<%= static_path(@conn, "/js/app.js") %>"></script> -->
+    <%= {:safe, js_script_tag() } %>
+  </body>
+</html>

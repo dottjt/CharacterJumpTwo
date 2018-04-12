@@ -1,0 +1,5 @@
+<h2>New Jump</h2>
+
+<%= render "form.html", Map.put(assigns, :action, jump_path(@conn, :create)) %>
+
+<span><%= link "Back", to: jump_path(@conn, :index) %></span>

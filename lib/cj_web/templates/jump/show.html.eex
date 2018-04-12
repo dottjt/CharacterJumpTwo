@@ -1,0 +1,28 @@
+<h2>Show Jump</h2>
+
+<ul>
+
+  <li>
+    <strong>Secondary:</strong>
+    <%= @jump.secondary_id %>
+  </li>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @jump.name %>
+  </li>
+
+  <li>
+    <strong>Display name:</strong>
+    <%= @jump.display_name %>
+  </li>
+
+  <li>
+    <strong>Description:</strong>
+    <%= @jump.description %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: jump_path(@conn, :edit, @jump) %></span>
+<span><%= link "Back", to: jump_path(@conn, :index) %></span>

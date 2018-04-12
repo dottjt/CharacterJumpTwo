@@ -1,0 +1,56 @@
+<div class="guides">
+
+  <%= render_partial "hero.html", title: "An intuitive mental health strategy." %>        
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="what-does-it-mean-to-be-genuine" class="slide">
+    <%= render_partial "h2-link.html", 
+        link: "/guides/understanding-characters#what-does-it-mean-to-be-genuine", 
+        title: "What Does It Mean To Be Genuine?" 
+    %>
+
+    <p>Some people argue that there is no such thing as our genuine selves, and that this idea of the 'genuine self' is merely another character.</p>
+    <p>Of course, this usually comes from the perspective of someone deeply in character who cannot understand what it's like not to be in character.</p>
+    <p>So the best I can do is describe what it's like to live without character.</p>
+    <p>A lot of explanations get you to try and think back to your childhood, and what it was like to live without expectation, however I don't think that's necessarily the best explanation.</p>
+    <p>Instead, imagine not caring about anything.</p>
+    <p>Imagine that you no longer care about the outcome of anything.</p>
+    <p>You could die tomorrow. You could lose your job. You just don't care.</p>
+    <p>Except that instead of it making you feel depressed, confused or anxious, it actually makes you feel happy and empowered.</p>
+    <p>In fact, you feel free.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="why-being-genuine-isnt-scary" class="slide">
+    <%= render_partial "h2-link.html", 
+        link: "/guides/understanding-characters#why-being-genuine-isnt-scary", 
+        title: "Why Being Genuine Isn't Scary" 
+    %>
+
+    <p>And yet inspite of this mental shift, nothing in your life has actually changed. You still have your job. You're still alive. You're still you.</p>
+    <p>Yet no longer do you feel attached to these things, which ironically makes you better to do those things.</p>
+    <p>When you remove the attachment you no longer feel clouded by your fear or judgement of them.</p>
+    <p>That's what your genuine self feels like.</p>
+    <p>Now of course we still need a job, as well as the need to be alive, however this kind of parallel can be applied to the characters in our lives.</p>
+    <p>When we become attached to the characters we play, we play into that same dynamic of fear and bias which clouds our ability to introspect effectively.</p>
+    <p>Put simply, our genuine self is like a blank slate.</p>
+    <p>It's not committed to anything.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="discovering-our-genuine-selves" class="slide">
+    <%= render_partial "h2-link.html", 
+        link: "/guides/understanding-characters#discovering-our-genuine-selves", 
+        title: "Discovering Our Genuine Selves" 
+    %>
+
+    <p>The only way to discover who we really are is to dissolve all the characters you play.</p>
+    <p>The less time you spend playing these characters, the less influence they will have on you and the more control you can regain of yourself.</p>
+    <p>Certainly, it's not easy.</p>
+    <p>After all, we've been playing these characters for quite a while, usually since childhood - so we've become quite attached to them.</p>    
+  </div>
+  
+</div>

@@ -1,0 +1,98 @@
+<div class="guides">
+
+  <%= render_partial "hero.html", title: "An intuitive mental health strategy." %>        
+
+  <div class="homepage__spacer"></div>
+
+  <div id="identifying-characters" class="slide">
+    <%= render_partial "h2-link.html", 
+      link: "/guides/identifying-characters/#identifying-characters", 
+      title: "Identifying Characters" 
+    %>
+
+    <p>In general, there are usually no more than a handful of characters that we play on a daily basis.</p>
+    <p>In addition, the characters we play may change depending on the situation or circumstance.</p>
+    <p>I would like to add that there are no right or wrong ways to identify characters.</p>
+    <p>In some cases you may instantly recognise a character. In other cases you may have to dig a little deeper.</p>
+    <p>Certainly, there are a number of cues you can explore to better understand the characters you play.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="the-easiest-approach" class="slide">
+    <%= render_partial "h2-link.html", 
+      link: "/guides/identifying-narratives/#the-easiest-approach", 
+      title: "The Easiest Approach" 
+    %>
+
+    <p>While there are obviously more in-depth approaches, I want to introduce you to an overarching approach which I believe makes the task simple.</p>
+    <p>When in doubt, there's always one really simple question which generally helps in most cases.</p>
+    <ul>
+      <li>
+        What am I attached to and why?
+      </li>
+    </ul>
+    <p>Firstly, if you can identify attachment then it means you can identify a character.</p>
+    <p>Then once you can understand what you're attached to, you can also identify the strengths, weaknesses and insecurities of that particular character.</p>
+  
+    <p>The reason why this is an effective approach is because it essentially has us asking the right question.</p>
+    <p>By asking this question you can essentially maintain oversight over your self-awareness, as well as uncover it as well.</p>
+  </div>
+
+
+  <div class="homepage__spacer"></div>  
+
+  <div id="identifying-narratives" class="slide">
+    <%= render_partial "h2-link.html", 
+      link: "/guides/identifying-narratives/#identifying-narratives", 
+      title: "Identifying Narratives" 
+    %>
+    
+    <p>Narratives are an excellent place to look for characters.</p>
+    <p>You can think of a narrative as a kind of story that you tell yourself, and it can help to understand that each character has it's own story.</p>
+    <p>Usually, we express these narratives via a thought or point of view. Although in some cases it may be physical, or even via our behaviours.</p>
+    <p>Here are some common examples of thoughts which may hint at the kinds of narratives we might be having:</p>    
+
+    <h3>Thoughts</h3>
+    
+    <ul>
+      <li>I'm not good enough</li>
+      <li>I cannot believe how rude that person is</li>
+      <li>No one loves me</li>
+      <li>I wish I was further along than I am</li>
+    </ul>
+
+    <p>Now there are a few keen points to note about these thoughts.</p>
+    <p>In general, they're based on expectation and this indicates a level of insecurity or attachment to the particular character we're playing.</p>
+
+
+    <p>Of course, often it's not as simple as a direct thought.</p>
+    <p>Sometimes it's a behaviour. You may find yourself talking to yourself a lot or doing something like biting your nails. In other cases it may be physical. Your body may get really tense or you may feel as if your body is sinking.</p>
+    <p>The idea is to become aware of yourself and how you express these characters.</p>
+  </div>  
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="" class="slide">  
+    <%= render_partial "h2-link.html", 
+      link: "/guides/identifying-narratives/#identifying-characters-from-narratives", 
+      title: "Identifying Characters From Narratives" 
+    %>
+
+    <p>Naturally, the second step is to identify these character.</p>
+    <p>How do you associate with these narratives? Often you can discover common themes within these narratives. In other words, the identity which these narratives that comprise a certain character.</p>
+    <p>Personally speaking I find it helps to give these characters funny names, so not to take them personally.</p>
+
+    <ul>
+      <li>I'm not good enough - The Doubter</li>
+      <li>I cannot believe how rude that person is - The Take It Personally</li>
+      <li>No one loves me - The Doubter</li>
+      <li>I wish I was further along than I am - The Perfectionist</li>
+    </ul>
+
+    <p>That's really all there is to it!</p>
+    <p>Once you're able to identify these characters, you can then do other things such as evaluate them and eventually.</p>
+    
+  </div>
+  
+</div>

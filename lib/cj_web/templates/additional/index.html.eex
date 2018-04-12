@@ -1,0 +1,32 @@
+<h2>Listing Additional</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Display name</th>
+      <th>Text</th>
+      <th>Type</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for additional <- @additional do %>
+    <tr>
+      <td><%= additional.name %></td>
+      <td><%= additional.display_name %></td>
+      <td><%= additional.text %></td>
+      <td><%= additional.type %></td>
+
+      <td class="text-right">
+        <span><%= link "Show", to: additional_path(@conn, :show, additional), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Edit", to: additional_path(@conn, :edit, additional), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Delete", to: additional_path(@conn, :delete, additional), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Additional", to: additional_path(@conn, :new) %></span>

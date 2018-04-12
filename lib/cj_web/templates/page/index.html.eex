@@ -1,0 +1,115 @@
+<div class="homepage">
+
+  <%= render_partial "hero.html", title: "An intuitive mental health strategy." %>        
+
+  <div class="homepage__spacer"></div>
+
+  <div id="what-is-it" class="slide">
+    <%= render_partial "h2-link.html",
+      link: "/#what-is-it",
+      title: "What is it?"
+    %>
+
+    <p>An extensive online guide that explains the rationale and process of an intuitive mental health strategy.</p>
+    <p>Accompanying the guide is an online application that takes a unique approach towards developing self-awareness.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+
+  <div id="who-is-it-for" class="slide slide_secondary">
+    <%= render_partial "h2-link.html",
+      link: "/#who-is-it-for",
+      title: "Who is it for?"
+    %>
+
+    <p>Individuals struggling with their mental health.</p>
+    <p>This typically includes ambitious professionals, as well as those with a keen eye for self-improvement.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+
+  <div id="how-does-it-work" class="slide">
+    <%= render_partial "h2-link.html",
+      link: "/#how-does-it-work",
+      title: "How does it work?"
+    %>
+
+    <p>The mental health strategy revolves around these things called 'characters'.</p>
+    <p>Characters are the various personalities we play on a daily basis, usually as a coping mechanism in reaction to life's events.</p>
+    <p>The aim of this strategy is to help you identify these characters, with the intention of dissolving them.</p>
+    <p>The reason we want to dissolve them is that they are not real, and generally tend towards the abusive aspects of our personality which do not reflect our genuine selves.</p>
+    <p>In particular, these characters can be problematic if we self-identify with them and forget they are not real.</p>
+    <a class="btn btn-red" href="/guides/understanding-characters">understanding characters</a>        
+  </div>
+
+  <div class="homepage__spacer"></div>
+
+  <div id="why-is-it-relevant" class="slide slide_secondary">
+    <%= render_partial "h2-link.html",
+      link: "/#why-is-it-relevant",
+      title: "Why is it relevant?"
+    %>
+    <p>This mental health strategy addresses the major limitations of other mental health strategies, as outlined in the <a class="link" href="/guides/existing-approaches">Existing Approaches</a> section.</p>
+    <p>It takes a unique approach towards developing self-awareness and achieves this in a few key ways:</p>
+
+    <%= render_partial "difference-list.html", assigns %>        
+
+    <a class="btn btn-red" href="/guides/my-approach">our approach</a>
+  </div>
+
+  <div class="homepage__spacer"></div>
+
+  <div id="what-is-the-purpose-of-the-application" class="slide slide_secondary">
+    <%= render_partial "h2-link.html",
+      link: "/#what-is-the-purpose-of-the-application",
+      title: "What is the purpose of the application?"
+    %>
+    <p>The online application can be useful if you're just starting out with your mental health.</p>
+    <p>Very rarely do people get it right the first time, and it may take many months before you can come to fully understand these characters.</p> 
+    <p>The application allows you to view your character progressions over time, and analyse where you might have gone wrong and relapsed.</p>
+    <p>The core functions of the application allow you to:</p>
+
+    <ul>
+      <li>Keep track of the characters you play each day</li>
+      <li>Identify patterns and long term trends</li>
+      <li>Journal your mental health progress</li>
+    </ul>
+
+  </div>
+
+  <div class="homepage__spacer"></div>
+
+  <div id="how-much-does-it-cost" class="slide">
+    <%= render_partial "h2-link.html",
+      link: "/#how-much-does-it-cost",
+      title: "How much does it cost?"
+    %>
+
+    <p>The software is free.</p>
+    <p>However, there is the option to pay for self-awareness exercises and teachings that are inessential to the core function of the program.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+
+  <div id="will-it-cure-my-depression" class="slide slide_secondary">
+    <%= render_partial "h2-link.html",
+      link: "/#will-it-cure-my-depression",
+      title: "Will it cure my depression?"
+    %>
+
+    <p>I don't know.</p>
+    <p>Only you can answer that question.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+
+  <div id="interested" class="slide">
+    <%= render_partial "h2-link.html",
+      link: "/#interested",
+      title: "Interested?"
+    %>
+
+    <p>Sign up for an account and we'll help ease you into the wonderful world of self-awareness.</p>
+  </div>
+
+</div>

@@ -1,0 +1,32 @@
+<h2>Listing Traits</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Display name</th>
+      <th>Excerpt</th>
+      <th>Featured image</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for trait <- @traits do %>
+    <tr>
+      <td><%= trait.name %></td>
+      <td><%= trait.display_name %></td>
+      <td><%= trait.excerpt %></td>
+      <td><%= trait.featured_image %></td>
+
+      <td class="text-right">
+        <span><%= link "Show", to: trait_path(@conn, :show, trait), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Edit", to: trait_path(@conn, :edit, trait), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Delete", to: trait_path(@conn, :delete, trait), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Trait", to: trait_path(@conn, :new) %></span>

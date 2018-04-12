@@ -1,0 +1,102 @@
+.Dash__record {
+  border: 1px solid black;
+
+  height: 5rem;
+}
+
+.Dash__timeline {
+  display: flex;
+  flex-wrap: wrap;
+
+  height: 16rem;
+}
+
+.Dash__day {
+  width: 100%;
+  border: 1px solid black;  
+}
+
+/* CHARACTERS */
+
+.Dash__characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  height: 16rem;
+  padding: 1rem;
+
+  margin-top: 4rem;
+
+  border: 1px solid black;  
+
+
+}
+
+.Dash__character {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  width: 100%;
+
+  border: 1px solid black;  
+}
+
+.Dash__character__display_name {
+
+}
+
+.Dash__character__link {
+  
+}
+
+.Dash__menu {
+  display: flex; 
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 4rem;  
+}
+
+.Dash__item {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+
+  width: 100%;
+
+  padding: 0.5rem;
+
+  height: 150px;
+  border: 1px solid black;
+
+  margin-bottom: 0.8rem;
+
+  font-size: 1.2rem;
+}
+
+.Dash__title {
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 767px) {
+  .Dash__menu {
+    flex-direction: row;
+  }
+  
+  .Dash__item {
+    width: 49%;
+  }
+
+  .Dash__character {
+    height: 3rem;    
+    width: 49%;
+  }
+}

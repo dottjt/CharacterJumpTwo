@@ -1,0 +1,71 @@
+<div class="guides">
+
+  <%= render_partial "hero.html", title: "An intuitive mental health strategy." %>        
+
+  <div class="homepage__spacer"></div>
+
+  <div id="high-barrier-of-entry" class="slide">
+      <%= render_partial "h2-link.html",
+        link: "/guides/existing-approaches#high-barrier-of-entry",
+        title: "High Barrier Of Entry"
+      %>
+
+    <p>Certainly, skill-based approaches can be an excellent way to develop your mental health. Especially for those starting out and seeking a strong foundation for their mental health.</p>
+    <p>With that said, I don't believe they are sustainable solutions and I would like to point out a few of the limitations that I've discovered over the years in regards to these approaches.</p>
+    <p>For starters, these systems usually have a high barrier of entry.</p>
+    <p>Perspective exercises (especially something like meditation) can tend not to make much sense until after a few months of practice.</p>
+    <p>Personally speaking it took me years before meditation made any sense.</p>
+    <p>What tends to happen is either you feel obligated to grind at these exercises until they click, which requires a lot of dedication, willpower and uncertainty.</p>
+    <p>Or you simply give up and return to your bad habits, generally becoming more cynical in the process. Before building up the courage to start again within a few months.</p>
+    <p>Both are very inefficient and unintuitive approaches, caused by the fact that these exercises tend to be quite foreign from what we may currently understand about ourselves.</p>
+    <p>My system aims to eliminate these barriers by replacing all these skills with one very simple question and objective.</p>
+    <p>In addition, it aims to be relatable and easy to understand from the beginning.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>  
+
+  <div id="difficulty-retaining-skills" class="slide">
+    <%= render_partial "h2-link.html", 
+      link: "/guides/existing-approaches#difficulty-retaining-skills", 
+      title: "Difficulty Retaining Skills" 
+    %>
+    <p>Another issue has to do with retaining and applying these skills.</p>    
+    <p>The sheer amount of skills required as part of these programs can be confusing, especially since a lot of skills may be quite similar.</p>
+    <p>Not only can it be difficult to intrepret which skills should be used in which situation, however what often ends up happening is that we develop a bunch of skills with no real context as to how we should apply them to our daily lives.</p>
+    <p>Causing us to crash and burn within the process.</p>
+    <p>In addition, these practices can tend to lose relevance and interest the more we do them.</p>
+    <p>What this does is create a false sense of confidence, tricking you into believing that you no longer need to do these practices because you've already done so much in the past.</p>
+    <p>So what often ends up happening is that you'll feel great for a few weeks, before returning to your old ways.</p>
+    <p>This is why these courses tend to become a vicious cycle of giving up and trying again, repeating the same mistakes again and again and again.</p>
+    <p>Of course, you may argue that this is a human flaw.</p>
+    <p>However I would argue that any successful system should account for these flaws in a way that structurally prevents them.</p>
+  </div>
+
+  <div class="homepage__spacer"></div>
+  
+  <div id="granular-in-scope" class="slide">
+    <%= render_partial "h2-link.html",
+      link: "/eliminating-characters/#granular-in-scope",
+      title: "Granular In Scope"
+    %>
+
+    <p>While these courses have good intentions, I don't believe they've necessarily been designed to address people with mental health issues.</p>
+    <p>Often the aim can be quite broad, such as to promote spirituality or help people explore self-awareness as a medium. 
+    <p>The idea being that these goals will indirectly address our mental health issues in the process.</p>
+    <p>As a result, a lot of these courses tend to be a lot more complex than they need to be, like swiss army knives of confusion.</p>
+
+    <p>I believe the reason why they can be confusing from a mental health perspective is because of the kinds of questions they have us asking:</p>
+
+    <ul>
+      <li>What are you most grateful for today and how does it make you feel?</li>
+      <li>What point of view are you looking at it from?</li>
+      <li>Where is your attention?</li>
+    </ul>
+
+    <p>Certainly, while these are great questions for exploring self-awareness, individually they don't have much of a direct connection to our problems.</p>
+    <p>In particular because they only only address one specific part of the problem, rather than the actual problem as a whole.</p>
+    <p>The way my system addresses this is by getting you to look at everything through a relatable framework, so not only can you directly relate to your problems, however so you can know exactly what the problem is.</p>
+  </div>
+
+  
+</div>
