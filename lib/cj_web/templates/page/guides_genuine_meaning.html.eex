@@ -4,21 +4,24 @@
 
   <div class="homepage__spacer"></div>
   
-  <div id="what-does-it-mean-to-be-genuine" class="slide">
+  <div id="understanding-our-genuine-selves" class="slide">
     <%= render_partial "h2-link.html", 
-        link: "/guides/understanding-characters#what-does-it-mean-to-be-genuine", 
-        title: "What Does It Mean To Be Genuine?" 
+        link: "/guides/understanding-characters#understanding-our-genuine-selves", 
+        title: "Understanding Our Genuine Selves" 
     %>
 
-    <p>Some people argue that there is no such thing as our genuine selves, and that this idea of the 'genuine self' is merely another character.</p>
-    <p>Of course, this usually comes from the perspective of someone deeply in character who cannot understand what it's like not to be in character.</p>
-    <p>So the best I can do is describe what it's like to live without character.</p>
-    <p>A lot of explanations get you to try and think back to your childhood, and what it was like to live without expectation, however I don't think that's necessarily the best explanation.</p>
-    <p>Instead, imagine not caring about anything.</p>
-    <p>Imagine that you no longer care about the outcome of anything.</p>
-    <p>You could die tomorrow. You could lose your job. You just don't care.</p>
-    <p>Except that instead of it making you feel depressed, confused or anxious, it actually makes you feel happy and empowered.</p>
-    <p>In fact, you feel free.</p>
+    <p>Contrary to playing characters is simply existing.</p>
+    <p>A concept many people find terrifying, if not completely illogical.</p>
+    <p>Part of the reason is because when we're so deeply in character, it becomes almost impossible to relate to the world without character.</p>
+    <p>This signifies the attachment we have with these characters, and so we associate 'simply existing' with the depression and loneliness of not being in character.</p>
+    <p>In other words, simply existing is living without attachment.</p>
+    <p>What people in character don't realise is that attachment is what is making them feel depressed and lonely, not existence.</p>
+    <p>They become so fearful of any alternative that </p>
+
+    <p>From the perspective of someone in character, this idea of 'simply existing' or our 'genuine self' is simply another character we play.</p>
+    <p>I think it can be a foreign concept because </p>
+    
+    
   </div>
 
   <div class="homepage__spacer"></div>
@@ -28,7 +31,11 @@
         link: "/guides/understanding-characters#why-being-genuine-isnt-scary", 
         title: "Why Being Genuine Isn't Scary" 
     %>
-
+    <p>Imagine not caring or desiring anything.</p>
+    <p>You could die tomorrow. You could lose your job. You just don't care.</p>
+    <p>Except instead of it making you feel depressed, confused or anxious, it actually makes you feel happy and empowered.</p>
+    <p>Arguably, this is the reason why people in character think it's all bullshit: because they don't understand how one can possibly not care, and not have some sort of reaction to that.</p>
+    <p>Because that's essentially what joy is: a complete lack of reaction.</p>
     <p>And yet inspite of this mental shift, nothing in your life has actually changed. You still have your job. You're still alive. You're still you.</p>
     <p>Yet no longer do you feel attached to these things, which ironically makes you better to do those things.</p>
     <p>When you remove the attachment you no longer feel clouded by your fear or judgement of them.</p>
@@ -54,3 +61,14 @@
   </div>
   
 </div>
+
+
+
+<!-- 
+    <p>So what exactly is simply existing?</p>
+    <p>Another way to think about simply existing </p>
+    
+    <p>Some people argue that there is no such thing as a genuine self, and that it's impossible to live without character.</p>
+    <p>Of course, this usually comes from the perspective of someone deeply in character, who hasn't experienced what it's like to live without character.</p>
+    <p>So since this may all very well be made up, the best I can do is describe what it's like to live without character, as well as the rationale behind why it's legitimate.</p> -->
+    <!-- <p>A lot of explanations get you to try and think back to your childhood, and what it was like to live without expectation as a child, however I don't think that's necessarily the best way to explain it.</p> -->

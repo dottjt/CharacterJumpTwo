@@ -12,8 +12,8 @@
     <div class="sidebar__section">
       <div class="sidebar__submenu">
         <a class="sidebar__submenu__item" href="/guides"/>Introduction</a>
-        <a class="sidebar__submenu__item" href="/guides#purpose"/>Purpose</a>
-        <a class="sidebar__submenu__item" href="/guides#approach"/>Approach</a>
+        <a class="sidebar__submenu__item" href="/guides#why"/>Why this strategy?</a>
+        <a class="sidebar__submenu__item" href="/guides#aim"/>The Aim</a>
       </div>
     </div>
 
@@ -21,9 +21,9 @@
     
     <div class="sidebar__section">
       <div class="sidebar__submenu">
-        <a class="sidebar__submenu__item" href="/guides/existing-approaches"/>Existing Approaches</a>
-        <a class="sidebar__submenu__item" href="/guides/existing-approaches#knowledge-based-approaches"/>Knowledge Based Approaches</a>
-        <a class="sidebar__submenu__item" href="/guides/existing-approaches#skill-based-approaches"/>Skill Based Approaches</a>
+        <a class="sidebar__submenu__item" href="/guides/existing-approaches"/>Existing approaches</a>
+        <a class="sidebar__submenu__item" href="/guides/existing-approaches#knowledge-based-approaches"/>Knowledge based approaches</a>
+        <a class="sidebar__submenu__item" href="/guides/existing-approaches#skill-based-approaches"/>Skill based approaches</a>
       </div>
     </div>
 
@@ -31,9 +31,9 @@
 
     <div class="sidebar__section">
       <div class="sidebar__submenu">      
-        <a class="sidebar__submenu__item" href="/guides/existing-approaches-limitations#high-barrier-of-entry"/>High Barrier Of Entry</a>
-        <a class="sidebar__submenu__item" href="/guides/existing-approaches-limitations#difficulty-retaining-skills"/>Difficulty Retaining Skills</a>
-        <a class="sidebar__submenu__item" href="/guides/existing-approaches-limitations#granular-in-scope"/>Granular In Scope</a>    
+        <a class="sidebar__submenu__item" href="/guides/existing-approaches-limitations#high-barrier-of-entry"/>High barrier of entry</a>
+        <a class="sidebar__submenu__item" href="/guides/existing-approaches-limitations#difficulty-retaining-skills"/>Difficulty retaining skills</a>
+        <a class="sidebar__submenu__item" href="/guides/existing-approaches-limitations#granular-in-scope"/>Granular in scope</a>    
       </div>
     </div>
 
@@ -54,25 +54,25 @@
     <div class="sidebar__section">
       <div class="sidebar__submenu">
         <a class="sidebar__submenu__item" href="/guides/understanding-characters">Understanding Characters</a>
-        <a class="sidebar__submenu__item" href="/guides/understanding-characters#characters-are-not-real">Characters Are Not Real</a>
+        <a class="sidebar__submenu__item" href="/guides/understanding-characters#characters-are-neutral">Characters Are Not Real</a>
         <a class="sidebar__submenu__item" href="/guides/understanding-characters#why-characters-are-harmful">Why Characters Are Harmful</a>
       </div>
     </div>
 
-    <h4 class="sidebar__title">What Does It Mean To Be Genuine?</h4>
+    <h4 class="sidebar__title">Understanding Our Genuine Selves</h4>
 
     <div class="sidebar__section">
       <div class="sidebar__submenu">
-        <a class="sidebar__submenu__item" href="/guides/genuine-meaning#what-does-it-mean-to-be-genuine">What Does It Mean To Be Genuine?</a>
+        <a class="sidebar__submenu__item" href="/guides/genuine-meaning#understanding-our-genuine-selves">Understanding Our Genuine Selves</a>
         <a class="sidebar__submenu__item" href="/guides/genuine-meaning#why-being-genuine-isnt-scary">Remaining The Same</a>
         <a class="sidebar__submenu__item" href="/guides/genuine-meaning#discovering-our-genuine-selves">Discovering Our Genuine Selves</a>
       </div>
     </div>
 
-    <h4 class="sidebar__title">Benefits Of Our Genuine Self</h4>
+    <h4 class="sidebar__title">Benefits Of Our Genuine Selves</h4>
     
     <div class="sidebar__section">
-      <div class="sidebar__menu">
+      <div class="sidebar__submenu">
         <a class="sidebar__submenu__item" href="/guides/genuine-benefits#why-it-helps-to-be-genuine">Why It Helps To Be Genuine</a>        
         <a class="sidebar__submenu__item" href="/guides/genuine-benefits#retaining-energy">Retaining Energy</a>
         <a class="sidebar__submenu__item" href="/guides/genuine-benefits#developing-true-confidence">Developing True Confidence</a>
@@ -87,6 +87,14 @@
         <a class="sidebar__item" href="/guides/identifying-characters#the-easiest-approach">The Easiest Approach</a>    
         <a class="sidebar__item" href="/guides/identifying-narratives#identifying-narratives">Identifying Narratives</a>    
         <a class="sidebar__item" href="/guides/identifying-narratives#identifying-characters-from-narratives">Identifying Characters From Narratives</a>    
+      </div>
+    </div>
+
+    <h4 class="sidebar__title">How We Develop Characters</h4>
+    
+    <div class="sidebar__section">
+      <div class="sidebar__submenu">
+        <a class="sidebar__item" href="/guides/developing-characters">Developing Characters</a>    
       </div>
     </div>
 

@@ -6,46 +6,93 @@
 
   <div id="introduction" class="slide">
     <%= render_partial "h2-link.html",
-      link: "/guides/my-approach#introduction",
+      link: "/guides#introduction",
       title: "Introduction"
     %>
+    <p>In an ideal world I'd tell you that everything is fine, and you'd genuinely believe it.</p>
+    <p>Your life would resume as you imagined, and this would be the last time you would ever have to read these words.</p>
+    <p>What would be more ideal is if I could click my fingers, and with the sound of that click make you realise that there's absolutely nothing wrong with you.</p>
+    <p>Unfortunately, those strategies don't tend to work.</p>
+    <p>They don't work because telling you that everything is fine or clicking my fingers, doesn't help you understand your mental health issues.</p>
+    <p>In constrast, effective mental health strategies educate.</p>
+    <p>They provide us with concepts and ideas we can relate to so we can internalise and understand them in relation to our problems and point of view.</p>
+    <p>They reinforce us with hope and reassurance, cultivating certainty as opposed to doubt.</p>
+    <p>In summary a mental health strategy provides an efficient process (or set of guidelines) that can eventually help you realise that everything is fine and that there is nothing wrong with you.</p>
+    <p>This is one of those strategies.</p>
+  </div>
 
-    <p>My name is Julius Reade.</p>
-    <p>I'm the creator of this platform and I thank you for taking the time to review my system.</p>
-    <p>Allow me to begin by saying that I believe the ideas surrounding mental health are already excellent.</p>
+  <div class="homepage__spacer"></div>
+  
+  <div id="why" class="slide">
+    <%= render_partial "h2-link.html",
+      link: "/guides#why",
+      title: "Why"
+    %>
+    <p>Personally speaking, I believe the ideas surrounding mental health are already excellent.</p>
+    <p>Beause truth is, most mental health frameworks revolve around the same concepts and ideas.</p>
+    <p>They simply use different analogies and approaches regarding what the creator of that strategy believes will be most intuitive.</p>
+
     <p>Essentially what this system addresses is the organisation of these ideas, so as to avoid the many pitfalls of pre-existing systems.</p>
     <p>Pitfalls which have been a reflection of my own personal experience with these systems.</p>
+    <p>This guide extensively details the strengths of my approach, as well as why I believe it is superior in some ways, and potentially weaker in others.</p>
+  
   </div>
+
 
   <div class="homepage__spacer"></div>
   
-  <div id="purpose" class="slide">
+  <div id="aim" class="slide">
     <%= render_partial "h2-link.html",
-      link: "/guides/my-approach#purpose",
-      title: "Purpose"
+      link: "/guides#aim",
+      title: "The aim of this strategy"
     %>
+
     <p>The aim of this strategy is to provide you with an effective process for you to maintain awareness over your mental health.</p>
-    <p>The reason is to help you become an effective human being.</p>
-    <p>A highly confident and capable human being with the ability to seamlessly deal with the pressures and outcomes of the modern 21st century.</p>
-    <p>In other words, this mental health strategy gives you a great deal of control over how you choose to live your life.</p>
-    <p>Control to simply be yourself without fear or worry.</p>
-  </div>
-  
-  <div class="homepage__spacer"></div>
-  
-  <div id="approach" class="slide">
-    <%= render_partial "h2-link.html",
-      link: "/guides/my-approach#approach",
-      title: "Approach"
-    %>
+    <p>Self-awareness is essentially the art of control, and it plays and important part in this mental health strategy.</p>
+    <p>On a fundamental level you can think of this mental health strategy as a relatable framework for you to better understand yourself.</p>
+    <p>It revolves around this idea of characters, which can allow you to easily identify and understand your problems.</p>
+    <p>With awareness over the characters we can have more control over how we play them, if at all.</p>
 
-    <p>Self-awareness will form the core of this mental health strategy, for reasons outlined within the various chapters.</p>
-    <p>On a more fundamental level this mental health strategy serves as a relatable framework for you to better understand your problems.</p>
-    <p>Of course, it begs to say that mental health strategies aren't silver bullets.</p>    
-    <p>Mental health strategies are merely designed to get you to think about your problems in a certain way, so you can be better able to help yourself.</p>
-    <p>You may embrace it or reject it.</p>
-    <p>That is entirely up to you and only you can help yourself. Unless if you're willing to seek professional help (which I encourage if you have the capacity).</p>
     <p>If you would like to jump straight into the deep end, please check out the <a class="link" href="/guides/understanding-characters">Understanding Characters</a> section.</p>
   </div>
 
 </div>
+
+
+
+
+
+
+
+
+
+<!-- Not being used -->
+<%#
+<!-- <div class="homepage__spacer"></div>
+
+<div id="purpose" class="slide"> -->
+  <%= render_partial "h2-link.html",
+    link: "/guides/my-approach#purpose",
+    title: "Purpose"
+  %>
+  <!-- <p>The aim of this strategy is to help you become an effective human being.</p>
+  <p>A highly confident and capable human being with the ability to seamlessly deal with life.</p>
+  <p>In other words, this mental health strategy gives you a great deal of control over how you choose to live your life.</p>
+  <p>Control to simply be yourself without fear or worry.</p> -->
+  <!-- </div> -->
+
+    <!-- <p>Beause truth is that most mental health frameworks revolve around the same concepts and ideas.</p>
+    <p>They simply use different analogies and approaches, regarding what they think will be most intuitive.</p> -->
+
+    <!-- <p>As this mental health strategy is a framework, it's important to understand that it shouldn't be taken as gospel.</p>
+    <p>There are no silver bullets or literal truths when it comes to addressing our mental health and certainly, it should not to be treated as a religion (although we'll often turn it into one if we're desperate enough).</p>
+    <p>Mental health strategies are merely designed to get you to think about your problems in certain ways, so you can be able to better help yourself.</p>
+    <p>You may embrace it, reject it or even use it against yourself.</p>
+    <p>It's a learning curve we all go through.</p> -->
+
+
+%>    <!-- <p>My name is Julius Reade.</p>
+  <p>I'm the creator of this platform and I thank you for taking the time to review my system.</p>
+  <p>Allow me to begin by saying that I believe the ideas surrounding mental health are already excellent.</p>
+  <p>Essentially what this system addresses is the organisation of these ideas, so as to avoid the many pitfalls of pre-existing systems.</p>
+  <p>Pitfalls which have been a reflection of my own personal experience with these systems.</p> -->

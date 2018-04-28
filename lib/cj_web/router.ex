@@ -51,6 +51,9 @@ defmodule CjWeb.Router do
 
     # CHARACTERS
     get "/guides/understanding-characters", PageController, :guides_understanding_characters
+    get "/guides/genuine-meaning", PageController, :guides_genuine_meaning
+    get "/guides/genuine-benefits", PageController, :guides_genuine_benefits
+
     get "/guides/identifying-characters", PageController, :guides_identifying_characters
     get "/guides/eliminating-characters", PageController, :guides_eliminating_characters
     get "/guides/example-characters", PageController, :guides_example_characters

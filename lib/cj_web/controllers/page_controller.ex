@@ -31,6 +31,14 @@ defmodule CjWeb.PageController do
   def guides_understanding_characters(conn, _params) do
     render conn, "guides_understanding_characters.html", layout: {CjWeb.LayoutView, "guides_layout.html"}
   end
+  def guides_genuine_meaning(conn, _params) do
+    render conn, "guides_genuine_meaning.html", layout: {CjWeb.LayoutView, "guides_layout.html"}
+  end
+  def guides_genuine_benefits(conn, _params) do
+    render conn, "guides_genuine_benefits.html", layout: {CjWeb.LayoutView, "guides_layout.html"}
+  end
+
+
   def guides_identifying_characters(conn, _params) do
     render conn, "guides_identifying_characters.html", layout: {CjWeb.LayoutView, "guides_layout.html"}
   end
