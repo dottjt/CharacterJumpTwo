@@ -1,20 +1,9 @@
-# Cj
+# Character Jump
 
-To start your Phoenix server:
+This project has since been depreciated in favour for Analogies.io 
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
-  * Install Node.js dependencies with `cd assets && npm install`
-  * Start Phoenix endpoint with `mix phx.server`
+Character Jump was to be a mental health platform that utilised this idea of 'characters' as a means to help people better understand themselves. 
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+Unfortunately, I've come to discover that while great in theory, doesn't quite work in practice - due to a number of limitations.
 
-Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
 
-## Learn more
-
-  * Official website: http://www.phoenixframework.org/
-  * Guides: http://phoenixframework.org/docs/overview
-  * Docs: https://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
