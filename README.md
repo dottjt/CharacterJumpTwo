@@ -1,5 +1,7 @@
 # Character Jump
 
+> Javascript, React, Redux, Elixir, Phoenix, SASS, Brunch
+
 This project has since been depreciated in favour for [Analogies.io](https://github.com/dottjt/analogies)
  
 Character Jump was to be a mental health platform that utilised this idea of 'characters' as a means to help people better understand themselves. 
